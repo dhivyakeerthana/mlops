@@ -1,5 +1,4 @@
 import os
-from pathlib import Path
 
 def check_if_data_exits():
     print(os.path.isdir('data'))
@@ -8,6 +7,3 @@ def check_if_data_exits():
 def check_if_model_exits():
     print(os.path.isfile('model.h5'))
     assert os.path.isfile('model.h5') == True
-
-check_if_data_exits()
-check_if_model_exits()
