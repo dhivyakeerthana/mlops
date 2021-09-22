@@ -1,4 +1,4 @@
-import os
+import os, pandas as pd
 
 def test_capitalize_string():
     abc = 'Test'
