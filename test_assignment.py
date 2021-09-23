@@ -1,6 +1,6 @@
 import os, pandas as pd
 
-def test_capitalize_string():
+def test_string():
     abc = 'Test'
     assert abc == 'Test'
 
