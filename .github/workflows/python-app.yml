@@ -36,4 +36,4 @@ jobs:
         pytest   
     - name: Display metrics
       run: |
-        python py_api.py
+        print("TEST")
